@@ -85,6 +85,23 @@
             "intervalos"
           ],
           "description": "Guía completa de useEffect: qué es, sintaxis, dependencias, ejecución única, llamadas a API y cleanup."
+        },
+        {
+          "title": "useState en React: Explicación detallada",
+          "slug": "react/usestate-en-react-explicacion-detallada",
+          "path": "docs/react/usestate-en-react-explicacion-detallada.md",
+          "order": 1,
+          "tags": [
+            "react",
+            "hooks",
+            "usestate",
+            "estado",
+            "formularios",
+            "objetos",
+            "arrays",
+            "spread-operator"
+          ],
+          "description": "Guía completa de useState: sintaxis, estado con números, strings, objetos y arrays, y uso del spread operator para actualizar sin perder datos."
         }
       ]
     }
