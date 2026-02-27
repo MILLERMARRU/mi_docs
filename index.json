@@ -120,6 +120,26 @@
             "spread-operator"
           ],
           "description": "Guía completa de useState: sintaxis, estado con números, strings, objetos y arrays, y uso del spread operator para actualizar sin perder datos."
+        },
+        {
+          "title": "Vite: qué es, para qué sirve y cómo iniciar proyectos",
+          "slug": "react/vite-que-es-para-que-sirve-y-como-iniciar-proyectos",
+          "path": "docs/react/vite-que-es-para-que-sirve-y-como-iniciar-proyectos.md",
+          "order": 1,
+          "tags": [
+            "vite",
+            "frontend",
+            "tooling",
+            "javascript",
+            "react",
+            "vue",
+            "svelte",
+            "hmr",
+            "rollup",
+            "webpack",
+            "build"
+          ],
+          "description": "Qué es Vite, por qué es rápido, cómo crear proyectos (React/Vue/Svelte/Vanilla), estructura del proyecto, comandos clave, configuración base y comparación con Webpack."
         }
       ]
     },
