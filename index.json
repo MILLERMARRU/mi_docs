@@ -19,6 +19,25 @@
             "despliegue"
           ],
           "description": "Guía PDR para levantar stacks con Docker Compose: estructura, comandos, variables de entorno, redes, volúmenes, perfiles y buenas prácticas con ejemplos listos."
+        },
+        {
+          "title": "Docker Compose (PDR Avanzado): patrones pro para stacks reales",
+          "slug": "docker/docker-compose-pdr-avanzado-patrones-pro-para-stacks-reales",
+          "path": "docs/docker/docker-compose-pdr-avanzado-patrones-pro-para-stacks-reales.md",
+          "order": 2,
+          "tags": [
+            "docker",
+            "docker-compose",
+            "devops",
+            "compose-avanzado",
+            "seguridad",
+            "secrets",
+            "multi-stage",
+            "logging",
+            "despliegue",
+            "infraestructura"
+          ],
+          "description": "PDR avanzado de Docker Compose: multi-archivos (dev/prod), anchors DRY, secrets/configs, hardening, build multi-stage, logging avanzado, escalado, troubleshooting y checklist pro."
         }
       ]
     }
