@@ -104,17 +104,17 @@ function UserProfile() {
 export default UserProfile;
 ```
 
-### 🛠 ¿Qué es el **spread operator (`...`) y cómo funciona?**
+### 🛠 ¿Qué es el spread operator (`...`) y cómo funciona?
 El **spread operator (`...`)** permite **copiar y expandir** los valores de un objeto o array sin modificar el original.
 
-📌 **Ejemplo:**
+📌 Ejemplo:
 ```jsx
 const obj1 = { name: "John", age: 30 };
 const obj2 = { ...obj1, city: "New York" };
 console.log(obj2); // { name: "John", age: 30, city: "New York" }
 ```
 
-📌 **En React, lo usamos para actualizar estados sin perder datos previos:**
+📌 En React, lo usamos para actualizar estados sin perder datos previos:
 ```jsx
 setUser({ ...user, name: e.target.value });
 ```
