@@ -50,7 +50,7 @@ composer require filament/filament
 ## 🛠 3. Configuración Inicial
 Publica los archivos de configuración y las vistas necesarias con el siguiente comando:
 
-```bash
+```php
 php artisan filament:install
 ```
 
