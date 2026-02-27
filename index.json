@@ -40,22 +40,6 @@
           "description": "PDR avanzado de Docker Compose: multi-archivos (dev/prod), anchors DRY, secrets/configs, hardening, build multi-stage, logging avanzado, escalado, troubleshooting y checklist pro."
         }
       ]
-    },
-    {
-      "title": "miller",
-      "order": 2,
-      "items": [
-        {
-          "title": "inicializate",
-          "slug": "miller/moel",
-          "path": "docs/miller/moel.md",
-          "order": 1,
-          "tags": [
-            "ejecucion"
-          ],
-          "description": "Diesel biodiesel 5%"
-        }
-      ]
     }
   ]
 }
