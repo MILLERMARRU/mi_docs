@@ -148,6 +148,30 @@
           "description": "Guía básica de Node.js: qué es, instalación, uso de node y npm, módulos, scripts, manejo de paquetes y programación asíncrona."
         }
       ]
+    },
+    {
+      "title": "FilamentPHP",
+      "order": 5,
+      "items": [
+        {
+          "title": "Filament Admin en Laravel: iniciar proyecto",
+          "slug": "filamentphp/filament-admin-en-laravel-iniciar-proyecto",
+          "path": "docs/filamentphp/filament-admin-en-laravel-iniciar-proyecto.md",
+          "order": 1,
+          "tags": [
+            "laravel",
+            "filament",
+            "filament-admin",
+            "php",
+            "panel-admin",
+            "crud",
+            "artisan",
+            "composer",
+            "plugins"
+          ],
+          "description": "Guía paso a paso para crear un proyecto Laravel e instalar Filament Admin: configuración inicial, usuario admin, acceso al panel, CRUD resources y personalización."
+        }
+      ]
     }
   ]
 }
