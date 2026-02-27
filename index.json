@@ -40,6 +40,29 @@
           "description": "PDR avanzado de Docker Compose: multi-archivos (dev/prod), anchors DRY, secrets/configs, hardening, build multi-stage, logging avanzado, escalado, troubleshooting y checklist pro."
         }
       ]
+    },
+    {
+      "title": "NestJS",
+      "order": 2,
+      "items": [
+        {
+          "title": " Prisma en Nest.js: MySQL y migración a PostgreSQL",
+          "slug": "nestjs/-prisma-en-nestjs-mysql-y-migracion-a-postgresql",
+          "path": "docs/nestjs/-prisma-en-nestjs-mysql-y-migracion-a-postgresql.md",
+          "order": 1,
+          "tags": [
+            "prisma",
+            "nestjs",
+            "mysql",
+            "postgresql",
+            "orm",
+            "migraciones",
+            "prisma-studio",
+            "backend"
+          ],
+          "description": "Guía para configurar Prisma en Nest.js con MySQL y migrar a PostgreSQL con buenas prácticas y manejo de migraciones."
+        }
+      ]
     }
   ]
 }
