@@ -25,16 +25,16 @@ Vite es una herramienta de construcción rápida y moderna para proyectos React.
 
 #### Pasos:
 ```bash
-# Crear un nuevo proyecto con Vite
+> Crear un nuevo proyecto con Vite
 npm create vite@latest my-react-app -- --template react
 
-# Accede al directorio del proyecto
+> Accede al directorio del proyecto
 cd my-react-app
 
-# Instalar las dependencias
+> Instalar las dependencias
 npm install
 
-# Iniciar el servidor de desarrollo
+> Iniciar el servidor de desarrollo
 npm run dev
 ```
 
