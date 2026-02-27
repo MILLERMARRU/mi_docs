@@ -23,14 +23,14 @@ Antes de iniciar, asegúrate de tener lo siguiente instalado:
 
 ---
 
-## 🛠1. Creación de un Proyecto Laravel**
+## 🛠1. Creación de un Proyecto Laravel
 Si aún no tienes un proyecto Laravel, crea uno nuevo:
 
 ```bash
 composer create-project laravel/laravel nombre-del-proyecto
 ```
 
-📂 **Cambia al directorio del proyecto:**
+📂 Cambia al directorio del proyecto:
 
 ```bash
 cd nombre-del-proyecto
@@ -38,7 +38,7 @@ cd nombre-del-proyecto
 
 ---
 
-## 🛠 **2. Instalación de Filament Admin**
+## 🛠 2. Instalación de Filament Admin
 Ejecuta el siguiente comando para instalar **Filament Admin**:
 
 ```bash
@@ -47,7 +47,7 @@ composer require filament/filament
 
 ---
 
-## 🛠 **3. Configuración Inicial**
+## 🛠 3. Configuración Inicial
 Publica los archivos de configuración y las vistas necesarias con el siguiente comando:
 
 ```bash
@@ -60,7 +60,7 @@ Este comando realiza lo siguiente:
 
 ---
 
-## 🛠 **4. Creación de un Usuario Administrador**
+## 🛠 4. Creación de un Usuario Administrador
 Para acceder al panel de administración, necesitas un usuario. Usa el siguiente comando:
 
 ```bash
@@ -74,7 +74,7 @@ Te pedirá que ingreses:
 
 ---
 
-## 🛠 **5. Acceso al Panel de Administración**
+## 🛠 5. Acceso al Panel de Administración
 Inicia el servidor local:
 
 ```bash
@@ -93,7 +93,7 @@ http://localhost:8000/admin
 
 ---
 
-## 🛠 **6. Creación de Recursos CRUD**
+## 🛠 6. Creación de Recursos CRUD
 Para crear un CRUD completo usando Filament, ejecuta:
 
 ```bash
@@ -112,7 +112,7 @@ Esto genera automáticamente las páginas para:
 - **Editar Post**
 - **Eliminar Post**
 
-### 📂 **Estructura generada:**
+### 📂 Estructura generada:
 ```bash
 app
 └── Filament
@@ -131,7 +131,7 @@ app
 
 ---
 
-## 🛠 **7. Personalización del Panel**
+## 🛠 7. Personalización del Panel
 Puedes personalizar los íconos y el diseño del panel de administración en el archivo `config/filament.php`.
 
 ### 🔧 Cambiar el ícono del menú de navegación:
@@ -152,10 +152,10 @@ SVG;
 
 ---
 
-## 🛠 **8. Instalación de Plugins Opcionales**
+## 🛠 8. Instalación de Plugins Opcionales
 Filament tiene varios **plugins** que puedes instalar para agregar funcionalidades adicionales.
 
-### 📦 **Ejemplo: Instalar Notifications Plugin**
+### 📦 Ejemplo: Instalar Notifications Plugin
 
 ```bash
 composer require filament/notifications
@@ -163,7 +163,7 @@ composer require filament/notifications
 
 ---
 
-## 📌 **Comandos Clave Resumidos**
+## 📌 Comandos Clave Resumidos
 | Comando                              | Descripción                                  |
 |--------------------------------------|----------------------------------------------|
 | `composer require filament/filament` | Instala Filament Admin.                      |
@@ -174,5 +174,5 @@ composer require filament/notifications
 
 ---
 
-### 🚀 **¡Listo!**
+### 🚀 ¡Listo!
 Ahora tienes un panel de administración completamente funcional con **Filament Admin**. Puedes personalizarlo según las necesidades de tu proyecto.
