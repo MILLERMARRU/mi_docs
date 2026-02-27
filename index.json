@@ -102,6 +102,24 @@
             "spread-operator"
           ],
           "description": "Guía completa de useState: sintaxis, estado con números, strings, objetos y arrays, y uso del spread operator para actualizar sin perder datos."
+        },
+        {
+          "title": "React - Introducción",
+          "slug": "react/react-introduccion",
+          "path": "docs/react/react-introduccion.md",
+          "order": 1,
+          "tags": [
+            "react",
+            "vite",
+            "javascript",
+            "spa",
+            "componentes",
+            "estructura-de-carpetas",
+            "hooks",
+            "usestate",
+            "useeffect"
+          ],
+          "description": "Introducción a React: qué es, para qué sirve, cómo crear un proyecto con Vite, estructura recomendada y hooks más usados."
         }
       ]
     }
