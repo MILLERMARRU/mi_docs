@@ -1,0 +1,26 @@
+{
+  "sections": [
+    {
+      "title": "Docker",
+      "order": 1,
+      "items": [
+        {
+          "title": "Docker Compose (PDR): Despliegue local con múltiples servicios",
+          "slug": "docker/docker-compose-pdr-despliegue-local-con-multiples-servicios",
+          "path": "docs/docker/docker-compose-pdr-despliegue-local-con-multiples-servicios.md",
+          "order": 1,
+          "tags": [
+            "docker",
+            "docker-compose",
+            "devops",
+            "contenedores",
+            "backend",
+            "local",
+            "despliegue"
+          ],
+          "description": "Guía PDR para levantar stacks con Docker Compose: estructura, comandos, variables de entorno, redes, volúmenes, perfiles y buenas prácticas con ejemplos listos."
+        }
+      ]
+    }
+  ]
+}
