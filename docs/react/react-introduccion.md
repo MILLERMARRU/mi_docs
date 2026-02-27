@@ -12,7 +12,7 @@ React es una biblioteca de JavaScript desarrollada por Facebook para construir i
 
 ## 🛠️ Iniciación con Vite y React
 
-### 1️⃣ **Instalación de Node.js**
+### 1️⃣ Instalación de Node.js
 Asegúrate de tener instalado Node.js en tu sistema. Puedes verificarlo con:
 ```bash
 node -v
@@ -20,7 +20,7 @@ npm -v
 ```
 Si no lo tienes, descárgalo desde [nodejs.org](https://nodejs.org/).
 
-### 2️⃣ **Crear un proyecto con Vite**
+### 2️⃣ Crear un proyecto con Vite
 Vite es una herramienta de construcción rápida y moderna para proyectos React.
 
 #### Pasos:
@@ -38,7 +38,7 @@ npm install
 npm run dev
 ```
 
-### 3️⃣ **Estructura Básica del Proyecto**
+### 3️⃣ Estructura Básica del Proyecto
 Al crear un proyecto con Vite, obtendrás una estructura como esta:
 ```
 my-react-app/
@@ -55,9 +55,9 @@ my-react-app/
 ├── index.html       # HTML principal
 └── package.json     # Dependencias y scripts
 ```
-### **Buenas Prácticas para Organizar un Proyecto Grande**
+### Buenas Prácticas para Organizar un Proyecto Grande
 
-1. **Dividir en Módulos**: Organiza tu proyecto por funcionalidades o características. Por ejemplo:
+1. Dividir en Módulos: Organiza tu proyecto por funcionalidades o características. Por ejemplo:
 ```
 src/
 ├── features/
@@ -72,11 +72,11 @@ src/
 │   │   ├── services/
 │   │   └── DashboardPage.jsx
 ```
-2. **Centraliza la Configuración**: Guarda configuraciones comunes como rutas, temas o constantes globales en una carpeta `config/`.
+2. Centraliza la Configuración: Guarda configuraciones comunes como rutas, temas o constantes globales en una carpeta `config/`.
 
-3. **Reutiliza Componentes y Hooks**: Coloca componentes reutilizables en `src/components` y hooks personalizados en `src/hooks`.
+3. Reutiliza Componentes y Hooks: Coloca componentes reutilizables en `src/components` y hooks personalizados en `src/hooks`.
 
-4. **Manejo de Estado**: Si usas Context API o herramientas como Redux, organiza el estado global en una carpeta `src/store`.
+4. Manejo de Estado: Si usas Context API o herramientas como Redux, organiza el estado global en una carpeta `src/store`.
 
 ---
 
@@ -85,7 +85,7 @@ Los hooks son funciones especiales en React que permiten "enganchar" caracterís
 
 ### 🧰 Lista de Hooks Comunes
 
-### 1. **`useState`**
+### 1. `useState`
 Permite manejar el estado local en un componente.
 ```jsx
 import { useState } from 'react';
@@ -102,7 +102,7 @@ function Counter() {
 }
 ```
 
-### 2. **`useEffect`**
+### 2. `useEffect`
 Permite manejar efectos secundarios como llamadas a APIs o suscripciones.
 ```jsx
 import { useEffect, useState } from 'react';
@@ -120,7 +120,7 @@ function FetchData() {
 }
 ```
 
-### 3. **`useContext`**
+### 3. `useContext`
 Permite acceder a datos globales proporcionados por un contexto.
 ```jsx
 import { useContext, createContext } from 'react';
@@ -133,7 +133,7 @@ function ThemedComponent() {
 }
 ```
 
-### 4. **`useReducer`**
+### 4. `useReducer`
 Ofrece un enfoque alternativo para manejar el estado en componentes complejos.
 ```jsx
 import { useReducer } from 'react';
@@ -162,7 +162,7 @@ function Counter() {
 }
 ```
 
-### 5. **`useRef`**
+### 5. `useRef`
 Proporciona una referencia mutable que persiste entre renderizados.
 ```jsx
 import { useRef } from 'react';
@@ -183,7 +183,7 @@ function InputFocus() {
 }
 ```
 
-### 6. **`useMemo`**
+### 6. `useMemo`
 Memoriza el resultado de una función costosa para evitar cálculos innecesarios.
 ```jsx
 import { useMemo, useState } from 'react';
@@ -200,7 +200,7 @@ function ExpensiveCalculation({ num }) {
 }
 ```
 
-### 7. **`useCallback`**
+### 7. `useCallback`
 Memoriza funciones para evitar su recreación en cada renderizado.
 ```jsx
 import { useCallback, useState } from 'react';
