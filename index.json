@@ -68,7 +68,7 @@
       "title": "React",
       "order": 3,
       "items": [
-         {
+        {
           "title": "React - Introducción",
           "slug": "react/react-introduccion",
           "path": "docs/react/react-introduccion.md",
@@ -120,6 +120,32 @@
             "spread-operator"
           ],
           "description": "Guía completa de useState: sintaxis, estado con números, strings, objetos y arrays, y uso del spread operator para actualizar sin perder datos."
+        }
+      ]
+    },
+    {
+      "title": "NodeJS",
+      "order": 4,
+      "items": [
+        {
+          "title": "Node.js - Introducción",
+          "slug": "nodejs/nodejs-introduccion",
+          "path": "docs/nodejs/nodejs-introduccion.md",
+          "order": 1,
+          "tags": [
+            "nodejs",
+            "javascript",
+            "backend",
+            "npm",
+            "modulos",
+            "fs",
+            "http",
+            "paquetes",
+            "asincrono",
+            "callbacks",
+            "yarn"
+          ],
+          "description": "Guía básica de Node.js: qué es, instalación, uso de node y npm, módulos, scripts, manejo de paquetes y programación asíncrona."
         }
       ]
     }
