@@ -63,6 +63,30 @@
           "description": "Guía para configurar Prisma en Nest.js con MySQL y migrar a PostgreSQL con buenas prácticas y manejo de migraciones."
         }
       ]
+    },
+    {
+      "title": "React",
+      "order": 3,
+      "items": [
+        {
+          "title": "useEffect en React: Explicación detallada",
+          "slug": "react/useeffect-en-react-explicacion-detallada",
+          "path": "docs/react/useeffect-en-react-explicacion-detallada.md",
+          "order": 1,
+          "tags": [
+            "react",
+            "hooks",
+            "useeffect",
+            "dependencias",
+            "lifecycle",
+            "api",
+            "fetch",
+            "cleanup",
+            "intervalos"
+          ],
+          "description": "Guía completa de useEffect: qué es, sintaxis, dependencias, ejecución única, llamadas a API y cleanup."
+        }
+      ]
     }
   ]
 }
