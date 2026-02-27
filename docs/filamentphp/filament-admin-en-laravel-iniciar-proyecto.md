@@ -1,6 +1,6 @@
 # Documentación: Cómo Iniciar un Proyecto con Filament Admin en Laravel
 
-## 📋 **Índice**
+## 📋Índice
 1. [Requisitos Previos](#requisitos-previos)
 2. [Creación de un Proyecto Laravel](#1-creación-de-un-proyecto-laravel)
 3. [Instalación de Filament Admin](#2-instalación-de-filament-admin)
@@ -13,7 +13,7 @@
 
 ---
 
-## ✅ **Requisitos Previos**
+## ✅Requisitos Previos
 Antes de iniciar, asegúrate de tener lo siguiente instalado:
 
 - **PHP 8.1 o superior**
@@ -23,7 +23,7 @@ Antes de iniciar, asegúrate de tener lo siguiente instalado:
 
 ---
 
-## 🛠 **1. Creación de un Proyecto Laravel**
+## 🛠1. Creación de un Proyecto Laravel**
 Si aún no tienes un proyecto Laravel, crea uno nuevo:
 
 ```bash
