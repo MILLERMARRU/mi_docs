@@ -33,7 +33,7 @@ Node.js es un entorno de ejecución de JavaScript construido sobre el motor V8 d
 3. ✅ Verificar la instalación:
     
 
-```node
+```npm
 node -v  # Verificar versión de Node.js
 npm -v   # Verificar versión de npm
 ```
@@ -41,7 +41,7 @@ npm -v   # Verificar versión de npm
 4. 📂 Crear un proyecto:
     
 
-```node
+```npm
 mkdir mi-proyecto
 cd mi-proyecto
 npm init -y
