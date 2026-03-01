@@ -192,22 +192,6 @@
           "description": "Guía paso a paso para crear un proyecto Laravel e instalar Filament Admin: configuración inicial, usuario admin, acceso al panel, CRUD resources y personalización."
         }
       ]
-    },
-    {
-      "title": "prueva",
-      "order": 6,
-      "items": [
-        {
-          "title": "milelr",
-          "slug": "prueva/m",
-          "path": "docs/prueva/m.md",
-          "order": 1,
-          "tags": [
-            "hg"
-          ],
-          "description": "hola"
-        }
-      ]
     }
   ]
 }
