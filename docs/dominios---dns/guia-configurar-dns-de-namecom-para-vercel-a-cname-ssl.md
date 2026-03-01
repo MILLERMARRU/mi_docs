@@ -42,19 +42,19 @@ Si aún no lo tienes, primero crea un proyecto en Vercel desde GitHub y desplieg
 
 ## 2) 🌐 Agregar el dominio en Vercel
 
-### Paso 1 — Ir a “Domains” del proyecto
+### Paso 1 - Ir a “Domains” del proyecto
 1. Entra a tu proyecto en Vercel.
 2. Ve a: **Settings → Domains**.
 
 ![screenshot-1772394854444](https://raw.githubusercontent.com/MILLERMARRU/mi_docs/main/docs/images/screenshot-1772394854444-1772394855333.png)
 
-### Paso 2 — Click en “Add Domain”
+### Paso 2 - Click en “Add Domain”
 1. Presiona **Add Domain** (Añadir dominio).
 2. Elige **Add existing domain** (o similar), como mencionas en tu guía.
 
 ![screenshot-1772394892605](https://raw.githubusercontent.com/MILLERMARRU/mi_docs/main/docs/images/screenshot-1772394892605-1772394901347.png)
 
-### Paso 3 — Escribir tu dominio y guardar
+### Paso 3 - Escribir tu dominio y guardar
 1. Pega tu dominio (ejemplo: `ejemplo.dev`).
 2. Click en **Add / Save**.
 
@@ -89,7 +89,7 @@ No compartas públicamente (capturas o texto) los valores exactos que te muestra
 
 ## 4) 🛠️ Crear los DNS Records en Name.com
 
-### Paso 4 — Ir a DNS en Name.com
+### Paso 4 - Ir a DNS en Name.com
 1. Entra a Name.com.
 2. Ve a tu dominio: **My Domains**.
 3. Abre **Manage DNS / DNS Records** (gestionar registros DNS).
@@ -127,7 +127,7 @@ Ahora crea el registro para `www`:
 
 ## 7) 🔁 Esperar propagación y validar en Vercel
 
-### Paso 7 — Volver a Vercel y revisar checks
+### Paso 7 - Volver a Vercel y revisar checks
 1. Regresa a **Vercel → Settings → Domains**.
 2. Espera a que los checks cambien de rojo a **azul** ✅.
 
