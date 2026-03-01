@@ -212,6 +212,24 @@
             "deploy"
           ],
           "description": "Aprende a canjear un dominio gratis del GitHub Student Developer Pack en Name.com, dejarlo activo y listo para configurar DNS y SSL en Vercel."
+        },
+        {
+          "title": "Guía: Configurar DNS de Name.com para Vercel (A + CNAME + SSL)",
+          "slug": "dominios---dns/guia-configurar-dns-de-namecom-para-vercel-a-cname-ssl",
+          "path": "docs/dominios---dns/guia-configurar-dns-de-namecom-para-vercel-a-cname-ssl.md",
+          "order": 2,
+          "tags": [
+            "vercel",
+            "dns",
+            "namecom",
+            "dominio",
+            "ssl",
+            "a-record",
+            "cname",
+            "deploy",
+            "github-student"
+          ],
+          "description": "Configura los registros DNS (A y CNAME) en Name.com para conectar tu dominio a Vercel, verificarlo y activar SSL automático."
         }
       ]
     }
