@@ -1,4 +1,4 @@
-# 🌐 Guía definitiva: obtener un dominio GRATIS con GitHub Student + [Name.com](https://www.name.com/partner/github-students)
+# 🌐 Guía definitiva: obtener un dominio GRATIS con GitHub Student + Name.com
 
 > Esta guía te ayuda a **canjear el dominio gratuito** incluido en el **[GitHub Student Developer Pack](https://education.github.com/pack)** usando **Name.com**.
 > Al final verás cómo dejarlo listo para **DNS + SSL** (por ejemplo, para Vercel).
