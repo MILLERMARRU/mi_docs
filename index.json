@@ -192,6 +192,28 @@
           "description": "Guía paso a paso para crear un proyecto Laravel e instalar Filament Admin: configuración inicial, usuario admin, acceso al panel, CRUD resources y personalización."
         }
       ]
+    },
+    {
+      "title": "Dominios - DNS",
+      "order": 6,
+      "items": [
+        {
+          "title": "Guía: Dominio gratis con GitHub Student + Name.com",
+          "slug": "dominios---dns/guia-dominio-gratis-con-github-student-namecom",
+          "path": "docs/dominios---dns/guia-dominio-gratis-con-github-student-namecom.md",
+          "order": 1,
+          "tags": [
+            "dominios",
+            "github-student",
+            "namecom",
+            "dns",
+            "ssl",
+            "vercel",
+            "deploy"
+          ],
+          "description": "Aprende a canjear un dominio gratis del GitHub Student Developer Pack en Name.com, dejarlo activo y listo para configurar DNS y SSL en Vercel."
+        }
+      ]
     }
   ]
 }
