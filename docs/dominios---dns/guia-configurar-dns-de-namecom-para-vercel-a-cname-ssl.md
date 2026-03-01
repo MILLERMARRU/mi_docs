@@ -50,7 +50,7 @@ Si aún no lo tienes, primero crea un proyecto en Vercel desde GitHub y desplieg
 
 ### Paso 2 - Click en “Add Domain”
 1. Presiona **Add Domain** (Añadir dominio).
-2. Elige **Add existing domain** (o similar), como mencionas en tu guía.
+2. Elige **Add existing domain** (o similar).
 
 ![screenshot-1772394892605](https://raw.githubusercontent.com/MILLERMARRU/mi_docs/main/docs/images/screenshot-1772394892605-1772394901347.png)
 
