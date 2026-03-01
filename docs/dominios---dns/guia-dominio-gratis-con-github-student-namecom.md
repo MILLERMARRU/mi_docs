@@ -39,13 +39,13 @@ flowchart TD
 
 ## 🎁 Sección 2: Encontrar la oferta de Name.com
 
-### Paso 2. Ir a las ofertas del pack
+### Paso 2 - Ir a las ofertas del pack
 1. Dentro del pack, busca la categoría **Domains** (o usa el filtro de dominios).
 2. Ubica la tarjeta de **Name.com** (beneficio oficial: https://www.name.com/partner/github-students) (oferta de dominio gratis con +25 extensiones).
 
 ![screenshot-1772387961347](https://raw.githubusercontent.com/MILLERMARRU/mi_docs/main/docs/images/screenshot-1772387961347-1772387961516.png)
 
-### Paso 3. Entrar a “Explore more offers”
+### Paso 3 - Entrar a “Explore more offers”
 En algunos casos verás el botón **“Explore more offers”** (tal como indicaste).
 Haz clic ahí y navega hasta **Name.com**.
 
@@ -55,14 +55,14 @@ Haz clic ahí y navega hasta **Name.com**.
 
 ## 🔗 Sección 3: Conectar GitHub con Name.com (canjear el beneficio)
 
-### Paso 4. Conectar tu cuenta de GitHub
+### Paso 4 - Conectar tu cuenta de GitHub
 1. En la tarjeta de Name.com, pulsa algo similar a:
    - **“Get access by connecting your GitHub account on Name.com”**
 2. Te redirigirá a Name.com para autorizar la conexión con GitHub.
 
 ![screenshot-1772388070318](https://raw.githubusercontent.com/MILLERMARRU/mi_docs/main/docs/images/screenshot-1772388070318-1772388070622.png)
 
-### Paso 5. Login en Name.com con GitHub
+### Paso 5 - Login en Name.com con GitHub
 1. En Name.com, elige **Login with GitHub** (o equivalente).
 2. Autoriza el acceso si GitHub te lo solicita.
 
@@ -74,7 +74,7 @@ Haz clic ahí y navega hasta **Name.com**.
 
 ## 🔎 Sección 4: Buscar tu dominio y elegir una extensión elegible
 
-### Paso 6. Buscar el nombre del dominio
+### Paso 6 - Buscar el nombre del dominio
 1. En Name.com, ve al buscador de dominios.
 2. Escribe el nombre que quieres (ej: `miproyecto`).
 3. Revisa las extensiones **elegibles del pack** (suelen ser más de 25, por ejemplo: `.live`, `.studio`, `.software`, `.app`, `.dev`, etc.).
@@ -85,13 +85,13 @@ Haz clic ahí y navega hasta **Name.com**.
 
 ## 🧾 Sección 5: Checkout sin costo (y por qué pide tarjeta)
 
-### Paso 7. Verificar que el total sea $0
+### Paso 7 - Verificar que el total sea $0
 1. Agrega tu dominio elegible al carrito.
 2. En el checkout, confirma que el **costo del dominio** esté en **$0**.
 
 ![screenshot-1772388375500](https://raw.githubusercontent.com/MILLERMARRU/mi_docs/main/docs/images/screenshot-1772388375500-1772388375600.png)
 
-### Paso 8. Agregar método de pago (sin miedo 😅)
+### Paso 8 - Agregar método de pago (sin miedo 😅)
 Aunque el total sea $0, **Name.com requiere un método de pago para registrar dominios**.
 Esto es normal y es una duda común reportada por estudiantes.
 
@@ -104,7 +104,7 @@ Esto es normal y es una duda común reportada por estudiantes.
 
 ## 🎉 Sección 6: Confirmación y acceso al panel del dominio
 
-### Paso 9. Confirmar compra / registro
+### Paso 9 - Confirmar compra / registro
 1. Finaliza el checkout.
 2. Al terminar, ve a **My Domains** en Name.com y confirma que tu dominio aparece activo.
 
