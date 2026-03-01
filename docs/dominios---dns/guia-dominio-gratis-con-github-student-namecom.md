@@ -29,7 +29,7 @@ flowchart TD
 
 ## 🧩 Sección 1: Entrar al Student Developer Pack
 
-### Paso 1. Inicia sesión en GitHub Education
+### Paso 1 - Inicia sesión en GitHub Education
 1. Abre la página del pack:
    - **GitHub Student Developer Pack** → https://education.github.com/pack
 2. Inicia sesión con tu cuenta de GitHub.
