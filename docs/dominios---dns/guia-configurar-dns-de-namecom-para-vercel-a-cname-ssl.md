@@ -118,7 +118,7 @@ Ahora crea el registro para `www`:
 1. **Type:** `CNAME`  
 2. **Host / Name:** `www`  
 3. **Answer / Value:** pega el valor CNAME que te indica Vercel (por ejemplo `cname.vercel-dns.com`)  
-4. **TTL:** default  
+4. **TTL:** default.
 5. Guarda
 
 ![screenshot-1772395139178](https://raw.githubusercontent.com/MILLERMARRU/mi_docs/main/docs/images/screenshot-1772395139178-1772395140306.png)
