@@ -1,1 +1,0 @@
-![screenshot-1772509935715](https://raw.githubusercontent.com/MILLERMARRU/mi_docs/main/docs/images/screenshot-1772509935715-1772509935816.png)
