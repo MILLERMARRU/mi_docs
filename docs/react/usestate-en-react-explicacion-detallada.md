@@ -162,4 +162,4 @@ export default TaskList;
 ---
 
 ## 🚀 ¿Qué sigue?
-Ahora que entiendes `useState`, el próximo paso es aprender **`useEffect`**, que permite manejar efectos secundarios como **llamadas a APIs** o **suscripciones**. ¿Quieres que sigamos con ese? 😊
+Ahora que entiendes `useState`, el próximo paso es aprender **`useEffect`**, que permite manejar efectos secundarios como **llamadas a APIs** o **suscripciones**. 
