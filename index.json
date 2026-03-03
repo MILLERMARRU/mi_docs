@@ -232,6 +232,22 @@
           "description": "Configura los registros DNS (A y CNAME) en Name.com para conectar tu dominio a Vercel, verificarlo y activar SSL automático."
         }
       ]
+    },
+    {
+      "title": "prueva",
+      "order": 7,
+      "items": [
+        {
+          "title": "prueva",
+          "slug": "prueva/p",
+          "path": "docs/prueva/p.md",
+          "order": 1,
+          "tags": [
+            "ee"
+          ],
+          "description": "prueva"
+        }
+      ]
     }
   ]
 }
