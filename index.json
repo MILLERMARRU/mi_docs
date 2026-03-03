@@ -246,16 +246,6 @@
             "tt"
           ],
           "description": "prueva pes"
-        },
-        {
-          "title": "tre",
-          "slug": "prueva/t",
-          "path": "docs/prueva/t.md",
-          "order": 2,
-          "tags": [
-            "ee"
-          ],
-          "description": "ee"
         }
       ]
     }
