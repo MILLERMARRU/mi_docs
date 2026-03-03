@@ -320,3 +320,4 @@ docker compose up -d
 - y documentar tu stack para tu equipo o clientes.
 
 Si quieres, puedo generarte una versión **adaptada a tu stack real** (Spring Boot + Postgres + Redis + Adminer/pgAdmin + Nginx) manteniendo el mismo estilo.
+(aja)
