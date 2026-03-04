@@ -243,6 +243,22 @@
           "createdBy": "miller"
         }
       ]
+    },
+    {
+      "title": "prueva",
+      "order": 7,
+      "items": [
+        {
+          "title": "prueva",
+          "slug": "prueva/p",
+          "path": "docs/prueva/p.md",
+          "order": 1,
+          "tags": [
+            "q"
+          ],
+          "description": "dwwwq"
+        }
+      ]
     }
   ]
 }
