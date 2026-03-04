@@ -177,5 +177,5 @@ dig www.ejemplo.dev +short
 
 - **SSL no aparece**
   - En Vercel normalmente el SSL se activa solo cuando el dominio está verificado.
-  - Si ya está verificado, espera unos minutos.
+  - Si ya está verificado, espera unos minutos
 
