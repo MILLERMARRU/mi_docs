@@ -18,7 +18,8 @@
             "local",
             "despliegue"
           ],
-          "description": "Guía PDR para levantar stacks con Docker Compose: estructura, comandos, variables de entorno, redes, volúmenes, perfiles y buenas prácticas con ejemplos listos."
+          "description": "Guía PDR para levantar stacks con Docker Compose: estructura, comandos, variables de entorno, redes, volúmenes, perfiles y buenas prácticas con ejemplos listos.",
+          "createdBy": "miller"
         },
         {
           "title": "Docker Compose (PDR Avanzado): patrones pro para stacks reales",
@@ -37,7 +38,8 @@
             "despliegue",
             "infraestructura"
           ],
-          "description": "PDR avanzado de Docker Compose: multi-archivos (dev/prod), anchors DRY, secrets/configs, hardening, build multi-stage, logging avanzado, escalado, troubleshooting y checklist pro."
+          "description": "PDR avanzado de Docker Compose: multi-archivos (dev/prod), anchors DRY, secrets/configs, hardening, build multi-stage, logging avanzado, escalado, troubleshooting y checklist pro.",
+          "createdBy": "miller"
         }
       ]
     },
@@ -60,7 +62,8 @@
             "prisma-studio",
             "backend"
           ],
-          "description": "Guía para configurar Prisma en Nest.js con MySQL y migrar a PostgreSQL con buenas prácticas y manejo de migraciones."
+          "description": "Guía para configurar Prisma en Nest.js con MySQL y migrar a PostgreSQL con buenas prácticas y manejo de migraciones.",
+          "createdBy": "miller"
         }
       ]
     },
@@ -84,7 +87,8 @@
             "usestate",
             "useeffect"
           ],
-          "description": "Introducción a React: qué es, para qué sirve, cómo crear un proyecto con Vite, estructura recomendada y hooks más usados."
+          "description": "Introducción a React: qué es, para qué sirve, cómo crear un proyecto con Vite, estructura recomendada y hooks más usados.",
+          "createdBy": "miller"
         },
         {
           "title": "useEffect en React: Explicación detallada",
@@ -102,7 +106,8 @@
             "cleanup",
             "intervalos"
           ],
-          "description": "Guía completa de useEffect: qué es, sintaxis, dependencias, ejecución única, llamadas a API y cleanup."
+          "description": "Guía completa de useEffect: qué es, sintaxis, dependencias, ejecución única, llamadas a API y cleanup.",
+          "createdBy": "miller"
         },
         {
           "title": "useState en React: Explicación detallada",
@@ -119,7 +124,8 @@
             "arrays",
             "spread-operator"
           ],
-          "description": "Guía completa de useState: sintaxis, estado con números, strings, objetos y arrays, y uso del spread operator para actualizar sin perder datos."
+          "description": "Guía completa de useState: sintaxis, estado con números, strings, objetos y arrays, y uso del spread operator para actualizar sin perder datos.",
+          "createdBy": "miller"
         },
         {
           "title": "Vite: qué es, para qué sirve y cómo iniciar proyectos",
@@ -139,7 +145,8 @@
             "webpack",
             "build"
           ],
-          "description": "Qué es Vite, por qué es rápido, cómo crear proyectos (React/Vue/Svelte/Vanilla), estructura del proyecto, comandos clave, configuración base y comparación con Webpack."
+          "description": "Qué es Vite, por qué es rápido, cómo crear proyectos (React/Vue/Svelte/Vanilla), estructura del proyecto, comandos clave, configuración base y comparación con Webpack.",
+          "createdBy": "miller"
         }
       ]
     },
@@ -165,7 +172,8 @@
             "callbacks",
             "yarn"
           ],
-          "description": "Guía básica de Node.js: qué es, instalación, uso de node y npm, módulos, scripts, manejo de paquetes y programación asíncrona."
+          "description": "Guía básica de Node.js: qué es, instalación, uso de node y npm, módulos, scripts, manejo de paquetes y programación asíncrona.",
+          "createdBy": "miller"
         }
       ]
     },
@@ -189,7 +197,8 @@
             "composer",
             "plugins"
           ],
-          "description": "Guía paso a paso para crear un proyecto Laravel e instalar Filament Admin: configuración inicial, usuario admin, acceso al panel, CRUD resources y personalización."
+          "description": "Guía paso a paso para crear un proyecto Laravel e instalar Filament Admin: configuración inicial, usuario admin, acceso al panel, CRUD resources y personalización.",
+          "createdBy": "miller"
         }
       ]
     },
@@ -211,7 +220,8 @@
             "vercel",
             "deploy"
           ],
-          "description": "Aprende a canjear un dominio gratis del GitHub Student Developer Pack en Name.com, dejarlo activo y listo para configurar DNS y SSL en Vercel."
+          "description": "Aprende a canjear un dominio gratis del GitHub Student Developer Pack en Name.com, dejarlo activo y listo para configurar DNS y SSL en Vercel.",
+          "createdBy": "miller"
         },
         {
           "title": "Guía: Configurar DNS de Name.com para Vercel (A + CNAME + SSL)",
@@ -229,7 +239,8 @@
             "deploy",
             "github-student"
           ],
-          "description": "Configura los registros DNS (A y CNAME) en Name.com para conectar tu dominio a Vercel, verificarlo y activar SSL automático."
+          "description": "Configura los registros DNS (A y CNAME) en Name.com para conectar tu dominio a Vercel, verificarlo y activar SSL automático.",
+          "createdBy": "miller"
         }
       ]
     }
