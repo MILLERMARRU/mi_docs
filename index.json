@@ -199,16 +199,6 @@
           ],
           "description": "Guía paso a paso para crear un proyecto Laravel e instalar Filament Admin: configuración inicial, usuario admin, acceso al panel, CRUD resources y personalización.",
           "createdBy": "miller"
-        },
-        {
-          "title": "ww",
-          "slug": "filamentphp/w",
-          "path": "docs/filamentphp/w.md",
-          "order": 1,
-          "tags": [
-            "ww"
-          ],
-          "description": "ww"
         }
       ]
     },
