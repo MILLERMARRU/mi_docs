@@ -243,22 +243,6 @@
           "createdBy": "miller"
         }
       ]
-    },
-    {
-      "title": "ggff",
-      "order": 7,
-      "items": [
-        {
-          "title": "sam",
-          "slug": "ggff/s",
-          "path": "docs/ggff/s.md",
-          "order": 1,
-          "tags": [
-            "e"
-          ],
-          "description": "de"
-        }
-      ]
     }
   ]
 }
