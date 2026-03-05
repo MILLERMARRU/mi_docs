@@ -220,7 +220,7 @@ winget install BurntSushi.ripgrep.MSVC
 
 El archivo `$PROFILE` es el script que PowerShell ejecuta automáticamente al iniciar. Es el equivalente al `.bashrc` o `.zshrc` de Linux.
 
-### Abrir el perfil para editar
+Abrir el perfil para editar
 
 ```powershell
 notepad $PROFILE
@@ -231,40 +231,38 @@ notepad $PROFILE
 > New-Item -Path $PROFILE -ItemType File -Force
 > ```
 
-### Contenido completo del perfil
+Contenido completo del perfil
 
 Copia y pega el siguiente contenido en tu `$PROFILE`:
 
 ```powershell
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#  🎨  OH MY POSH — Prompt visual con tema personalizado
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎨  OH MY POSH — Prompt visual con tema personalizado
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 oh-my-posh init pwsh --config "$env:USERPROFILE\.jandedobbeleer.omp.json" | Invoke-Expression
 # Temas alternativos (descomenta para cambiar):
 #oh-my-posh init pwsh --config "C:\Users\Mille\catppuccin_macchiato.omp.json" | Invoke-Expression
 #oh-my-posh init pwsh --config "C:\Users\Mille\powerlevel10k_rainbow.omp.json" | Invoke-Expression
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#  📁  TERMINAL-ICONS — Iconos en listados de archivos
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📁  TERMINAL-ICONS — Iconos en listados de archivos
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Import-Module Terminal-Icons
-
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#  🧠  PSREADLINE — Autocompletado y experiencia de escritura
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠  PSREADLINE — Autocompletado y experiencia de escritura
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Set-PSReadLineOption -PredictionViewStyle ListView     # Lista desplegable de sugerencias
 Set-PSReadLineOption -PredictionSource History         # Basado en historial de comandos
 Set-PSReadLineKeyHandler -Key Tab -Function Complete   # Tab completa el comando
 Set-PSReadLineOption -BellStyle None                   # Sin sonidos al presionar Tab o error
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#  🚀  ZOXIDE — Navegación inteligente de directorios
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚀  ZOXIDE — Navegación inteligente de directorios
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Invoke-Expression ((zoxide init powershell) -join "`n")
-
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#  🔍  vf — Abrir archivo con fzf + bat preview + VS Code
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍  vf — Abrir archivo con fzf + bat preview + VS Code
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 function vf {
     $root = git rev-parse --show-toplevel 2>$null
     if (-not $root) {
@@ -289,9 +287,9 @@ function vf {
 }
 Set-PSReadLineKeyHandler -Key Ctrl+r -ScriptBlock { vf }
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#  🔎  vg — Buscar texto en proyecto con ripgrep + fzf
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔎  vg — Buscar texto en proyecto con ripgrep + fzf
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 function vg {
     $root = git rev-parse --show-toplevel 2>$null
     if (-not $root) {
@@ -318,9 +316,9 @@ function vg {
 }
 Set-PSReadLineKeyHandler -Chord 'Ctrl+Shift+Q' -ScriptBlock { vg }
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#  📁  vcd — Navegar a carpeta con fzf
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📁  vcd — Navegar a carpeta con fzf
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 function vcd {
     $dir = fd --type d --hidden --exclude .git --exclude target --exclude node_modules |
         fzf --ansi `
@@ -337,7 +335,7 @@ function vcd {
 Set-PSReadLineKeyHandler -Chord 'Ctrl+Shift+O' -ScriptBlock { vcd }
 ```
 
-### Recargar el perfil sin reiniciar
+Recargar el perfil sin reiniciar
 
 ```powershell
 . $PROFILE
