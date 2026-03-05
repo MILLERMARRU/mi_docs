@@ -117,10 +117,10 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 El archivo de tema usado es `.jandedobbeleer.omp.json`. Para obtenerlo:
 
 ```powershell
-# Ver temas disponibles incluidos con Oh My Posh
+- Ver temas disponibles incluidos con Oh My Posh
 Get-PoshThemes
 
-# O copiar el tema jandedobbeleer al perfil de usuario
+- O copiar el tema jandedobbeleer al perfil de usuario
 Copy-Item "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" "$env:USERPROFILE\.jandedobbeleer.omp.json"
 ```
 
@@ -171,10 +171,10 @@ winget install ajeetdsouza.zoxide
 ### Uso básico de Zoxide
 
 ```powershell
-# Primera vez: navegar normalmente para que zoxide aprenda
+> Primera vez: navegar normalmente para que zoxide aprenda
 cd C:\Users\TuUsuario\Proyectos\MiApp
 
-# Después, desde cualquier lugar:
+> Después, desde cualquier lugar:
 z MiApp          # salta directamente al directorio
 z Pro            # salta al directorio que contenga "Pro"
 zi               # modo interactivo con fzf
@@ -187,16 +187,16 @@ zi               # modo interactivo con fzf
 Estas herramientas son necesarias para las funciones `vf`, `vg` y `vcd`.
 
 ```powershell
-# fd — buscador de archivos rápido (reemplazo de find)
+- fd — buscador de archivos rápido (reemplazo de find)
 winget install sharkdp.fd
 
-# fzf — buscador difuso interactivo
+- fzf — buscador difuso interactivo
 winget install junegunn.fzf
 
-# bat — visor de archivos con syntax highlighting (reemplazo de cat)
+- bat — visor de archivos con syntax highlighting (reemplazo de cat)
 winget install sharkdp.bat
 
-# ripgrep (rg) — búsqueda de texto ultrarrápida (reemplazo de grep)
+- ripgrep (rg) — búsqueda de texto ultrarrápida (reemplazo de grep)
 winget install BurntSushi.ripgrep.MSVC
 ```
 
@@ -460,26 +460,26 @@ Ctrl + Shift + O  →  Activa vcd
 ### Instalación completa en una sola sesión
 
 ```powershell
-# 1. PowerShell 7
+1. PowerShell 7
 winget install --id Microsoft.PowerShell --source winget
 
-# 2. Oh My Posh
+2. Oh My Posh
 winget install JanDeDobbeleer.OhMyPosh -s winget
 
-# 3. Fuente Nerd Font
+3. Fuente Nerd Font
 oh-my-posh font install meslo
 
-# 4. Herramientas CLI
+4. Herramientas CLI
 winget install sharkdp.fd junegunn.fzf sharkdp.bat BurntSushi.ripgrep.MSVC ajeetdsouza.zoxide
 
-# 5. Módulos de PowerShell
+5. Módulos de PowerShell
 Install-Module -Name Terminal-Icons -Repository PSGallery -Force
 Install-Module PSReadLine -Force -SkipPublisherCheck
 
-# 6. Copiar tema de Oh My Posh
+6. Copiar tema de Oh My Posh
 Copy-Item "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" "$env:USERPROFILE\.jandedobbeleer.omp.json"
 
-# 7. Crear/editar perfil
+7. Crear/editar perfil
 notepad $PROFILE
 ```
 
@@ -494,13 +494,13 @@ notepad $PROFILE
 ### Cambiar de tema rápidamente
 
 ```powershell
-# Ver todos los temas disponibles
+- Ver todos los temas disponibles
 Get-PoshThemes
 
-# Cambiar tema temporalmente (esta sesión)
+- Cambiar tema temporalmente (esta sesión)
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\catppuccin_macchiato.omp.json" | Invoke-Expression
 
-# Para cambiar permanentemente: editar $PROFILE y cambiar la línea activa
+- Para cambiar permanentemente: editar $PROFILE y cambiar la línea activa
 notepad $PROFILE
 ```
 
@@ -516,7 +516,7 @@ Revisa el [Paso 2](#2️⃣-instalar-la-fuente-nerd-font).
 ### El perfil no carga (error de ejecución de scripts)
 
 ```powershell
-# Ejecutar como Administrador:
+- Ejecutar como Administrador:
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
