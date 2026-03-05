@@ -243,6 +243,29 @@
           "createdBy": "miller"
         }
       ]
+    },
+    {
+      "title": "Terminal",
+      "order": 7,
+      "items": [
+        {
+          "title": "Configuración Personalizada de PowerShell",
+          "slug": "terminal/configuracion-personalizada-de-powershell",
+          "path": "docs/terminal/configuracion-personalizada-de-powershell.md",
+          "order": 1,
+          "tags": [
+            "powershell",
+            "terminal",
+            "oh-my-posh",
+            "cli",
+            "windows",
+            "fzf",
+            "zoxide",
+            "devtools"
+          ],
+          "description": "Guía completa para instalar y configurar PowerShell 7 con Oh My Posh, Zoxide, fzf y herramientas CLI modernas"
+        }
+      ]
     }
   ]
 }
