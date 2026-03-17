@@ -1,6 +1,6 @@
 # 🖥️ Configuración Personalizada de PowerShell
 
-> Guía completa paso a paso para instalar y configurar un entorno de terminal moderno, productivo y visualmente atractivo en Windows.
+> Guía completa paso a paso para instalar y configurar un entorno de terminal moderno, productivo y visualmente atractivo en Window.
 
 ---
 
