@@ -553,4 +553,4 @@ $env:PATH += ";$env:LOCALAPPDATA\Programs\oh-my-posh\bin"
 
 ---
 
-*Documentación generada para la configuración personal de PowerShell con Oh My Posh + PSReadLine + Zoxide + fd/fzf/bat/rg.*
+Documentación generada para la configuración personal de PowerShell con Oh My Posh + PSReadLine + Zoxide + fd/fzf/bat/rg.
