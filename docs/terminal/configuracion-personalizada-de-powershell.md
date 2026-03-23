@@ -552,5 +552,3 @@ $env:PATH += ";$env:LOCALAPPDATA\Programs\oh-my-posh\bin"
 | **Windows Terminal** | [Microsoft Store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) | [GitHub](https://github.com/microsoft/terminal) | — |
 
 ---
-
-Documentación generada para la configuración personal de PowerShell con Oh My Posh + PSReadLine + Zoxide + fd/fzf/bat/rg.
