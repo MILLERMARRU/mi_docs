@@ -340,6 +340,24 @@
           ],
           "description": "PRD detallado del pipeline de conversión y optimización de imágenes a formato AVIF/WebP en el proyecto ALENOR usando Next.js Image Optimization.",
           "createdBy": "miller"
+        },
+        {
+          "title": "Sistema de Contacto Multicanal – ALENOR",
+          "slug": "alenor/sistema-contacto-multicanal",
+          "path": "docs/alenor/sistema-contacto-multicanal.md",
+          "order": 3,
+          "tags": [
+            "prd",
+            "contacto",
+            "whatsapp",
+            "email",
+            "widget",
+            "framer-motion",
+            "ux",
+            "alenor"
+          ],
+          "description": "PRD técnico detallado del sistema de contacto multicanal de ALENOR: ContactWidget flotante, CTASection con mapa, y WhatsAppCTA para confirmación de pedidos.",
+          "createdBy": "miller"
         }
       ]
     }
