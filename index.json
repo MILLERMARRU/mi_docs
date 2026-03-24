@@ -323,6 +323,23 @@
           ],
           "description": "PRD detallado de todas las tecnologías, librerías y decisiones de arquitectura que conforman el proyecto ALENOR e-commerce.",
           "createdBy": "miller"
+        },
+        {
+          "title": "Optimización de Imágenes AVIF – ALENOR",
+          "slug": "alenor/optimizacion-imagenes-avif",
+          "path": "docs/alenor/optimizacion-imagenes-avif.md",
+          "order": 2,
+          "tags": [
+            "avif",
+            "imagenes",
+            "optimizacion",
+            "performance",
+            "nextjs",
+            "webp",
+            "prd"
+          ],
+          "description": "PRD detallado del pipeline de conversión y optimización de imágenes a formato AVIF/WebP en el proyecto ALENOR usando Next.js Image Optimization.",
+          "createdBy": "miller"
         }
       ]
     }
