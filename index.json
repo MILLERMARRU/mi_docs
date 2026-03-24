@@ -360,6 +360,30 @@
           "createdBy": "miller"
         }
       ]
+    },
+    {
+      "title": "laravelLearning",
+      "order": 10,
+      "items": [
+        {
+          "title": "Stack Técnico — Laravel Inventario API",
+          "slug": "laravellearning/stack-tecnico",
+          "path": "docs/laravellearning/stack-tecnico.md",
+          "order": 1,
+          "tags": [
+            "laravel",
+            "php",
+            "jwt",
+            "mysql",
+            "docker",
+            "pest",
+            "api-rest",
+            "arquitectura"
+          ],
+          "description": "PRD detallado de todas las herramientas, librerías y arquitectura usadas para construir la API REST de inventario con Laravel 12.",
+          "createdBy": "miller"
+        }
+      ]
     }
   ]
 }
