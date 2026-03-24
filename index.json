@@ -285,6 +285,21 @@
           ],
           "description": "Product Requirements Document completo de DocHubs: plataforma de documentación colaborativa para developers con almacenamiento en GitHub.",
           "createdBy": "miller"
+        },
+        {
+          "title": "README – DocHubs",
+          "slug": "proyectosfree/dochubs-readme",
+          "path": "docs/proyectosfree/dochubs-readme.md",
+          "order": 2,
+          "tags": [
+            "readme",
+            "setup",
+            "instalacion",
+            "dochubs",
+            "nextjs"
+          ],
+          "description": "Guía de instalación, configuración y uso de DocHubs: plataforma de documentación colaborativa con Next.js y GitHub.",
+          "createdBy": "miller"
         }
       ]
     }
