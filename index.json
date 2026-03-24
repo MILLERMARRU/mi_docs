@@ -266,6 +266,27 @@
           "description": "Guía completa para instalar y configurar PowerShell 7 con Oh My Posh, Zoxide, fzf y herramientas CLI modernas"
         }
       ]
+    },
+    {
+      "title": "proyectosfree",
+      "order": 8,
+      "items": [
+        {
+          "title": "PRD – DocHubs",
+          "slug": "proyectosfree/dochubs-prd",
+          "path": "docs/proyectosfree/dochubs-prd.md",
+          "order": 1,
+          "tags": [
+            "prd",
+            "dochubs",
+            "documentacion",
+            "nextjs",
+            "github"
+          ],
+          "description": "Product Requirements Document completo de DocHubs: plataforma de documentación colaborativa para developers con almacenamiento en GitHub.",
+          "createdBy": "miller"
+        }
+      ]
     }
   ]
 }
