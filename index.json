@@ -302,6 +302,29 @@
           "createdBy": "miller"
         }
       ]
+    },
+    {
+      "title": "alenor",
+      "order": 9,
+      "items": [
+        {
+          "title": "Stack Tecnológico – ALENOR",
+          "slug": "alenor/stack-tecnologico",
+          "path": "docs/alenor/stack-tecnologico.md",
+          "order": 1,
+          "tags": [
+            "prd",
+            "stack",
+            "tecnologias",
+            "arquitectura",
+            "nextjs",
+            "typescript",
+            "threejs"
+          ],
+          "description": "PRD detallado de todas las tecnologías, librerías y decisiones de arquitectura que conforman el proyecto ALENOR e-commerce.",
+          "createdBy": "miller"
+        }
+      ]
     }
   ]
 }
