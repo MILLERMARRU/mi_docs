@@ -384,6 +384,27 @@
           "createdBy": "miller"
         }
       ]
+    },
+    {
+      "title": "grControl",
+      "order": 11,
+      "items": [
+        {
+          "title": "Changelog — grControl (PRs #19 a #24)",
+          "slug": "grcontrol/changelog-prs-19-a-24",
+          "path": "docs/grcontrol/changelog-prs-19-a-24.md",
+          "order": 1,
+          "tags": [
+            "grcontrol",
+            "changelog",
+            "spring-boot",
+            "operational",
+            "backend"
+          ],
+          "description": "Resumen de cambios en grControl: precio por galón, dev data seeder, fallback de precios y flexibilidad de turnos activos.",
+          "createdBy": "miller"
+        }
+      ]
     }
   ]
 }
