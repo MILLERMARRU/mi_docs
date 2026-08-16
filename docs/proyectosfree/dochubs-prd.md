@@ -13,7 +13,7 @@ DocHubs es una plataforma de documentación colaborativa diseñada para equipos 
 
 ---
 
-## 2. Problema
+## 2. Problemas
 
 Los equipos de desarrollo necesitan mantener documentación actualizada, accesible y bien organizada. Las soluciones existentes presentan alguno de estos problemas:
 
