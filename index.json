@@ -405,23 +405,6 @@
           "createdBy": "miller"
         }
       ]
-    },
-    {
-      "title": "test",
-      "order": 12,
-      "items": [
-        {
-          "title": "test",
-          "slug": "test/test",
-          "path": "docs/test/test.md",
-          "order": 1,
-          "tags": [
-            "test"
-          ],
-          "description": "test",
-          "createdBy": "sam"
-        }
-      ]
     }
   ]
 }
